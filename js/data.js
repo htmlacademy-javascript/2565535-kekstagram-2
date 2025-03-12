@@ -115,7 +115,6 @@ const createPublication = function () {
   };
 };
 
-// Создаем массв объектов.
 
 const createPublications = function () {
   return Array.from({length: POST_SCORE},createPublication);
