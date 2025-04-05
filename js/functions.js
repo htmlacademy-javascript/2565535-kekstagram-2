@@ -17,3 +17,4 @@ const isPolindrom = function (string) {
   return emptyString === newString;
 };
 isPolindrom();
+
