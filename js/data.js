@@ -1,4 +1,4 @@
-import {getRandomValue, createUniqueRandomValue} from './utils.js';
+import {getRandomValue, createUniqueRandomValue} from './utils';
 
 // Описание фотографий.
 

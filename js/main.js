@@ -1,3 +1,3 @@
-import {createPublications} from './data.js';
+import {createPublications} from './data';
 createPublications();
-import './thumbnails.js';
+import './thumbnails';
