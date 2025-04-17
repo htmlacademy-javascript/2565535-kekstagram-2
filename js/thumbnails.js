@@ -1,7 +1,7 @@
 import { MOCKED__POSTS } from './examples';
-const template = document
-  .querySelector('#picture')
-  .content.querySelector('.picture');
+import { findTemplate } from './utils/dom';
+
+const template = findTemplate('picture');
 const container = document.querySelector('.pictures');
 
 const fragment = document.createDocumentFragment();
